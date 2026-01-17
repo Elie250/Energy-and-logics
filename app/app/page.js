@@ -1,3 +1,5 @@
+import React from "react"
+
 export default function HomePage() {
   return (
     <main style={{ padding: "40px", fontFamily: "sans-serif" }}>
