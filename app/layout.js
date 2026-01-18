@@ -1,6 +1,7 @@
+@@ -0,0 +1,15 @@
 import React from "react"
-import Header from "../components/header" // <- relative path
-import Footer from "../components/footer" // <- relative path
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 export default function RootLayout({ children }) {
   return (
