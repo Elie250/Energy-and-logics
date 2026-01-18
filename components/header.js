@@ -1,14 +1,14 @@
-import React from "react"
 import Link from "next/link"
 
 export default function Header() {
   return (
-    <header style={{ padding: "10px 40px", borderBottom: "1px solid #ccc" }}>
-      <Link href="/">Energy & Logics</Link>
-      <nav style={{ float: "right" }}>
-        <Link href="/services" style={{ margin: "0 10px" }}>Services</Link>
-        <Link href="/training" style={{ margin: "0 10px" }}>Training</Link>
-        <Link href="/support" style={{ margin: "0 10px" }}>Support</Link>
+    <header style={{ padding: 20, borderBottom: "1px solid #ddd" }}>
+      <h2>Energy & Logics</h2>
+      <nav>
+        <Link href="/">Home</Link> |{" "}
+        <Link href="/services">Services</Link> |{" "}
+        <Link href="/training">Training</Link> |{" "}
+        <Link href="/support">Support</Link>
       </nav>
     </header>
   )
