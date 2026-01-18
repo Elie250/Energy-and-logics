@@ -1,10 +1,17 @@
-import React from "react"
-
 export default function HomePage() {
   return (
-    <main style={{ padding: "40px", fontFamily: "sans-serif" }}>
-      <h1>Energy & Logics Ltd</h1>
-      <p>Engineering Your Sustainability</p>
+    <main style={{ padding: "40px" }}>
+      <h1>Energy & Logics</h1>
+      <p>Engineering your Sustainability</p>
+
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>PCB Design & Printing</li>
+          <li>IoT & Embedded Systems</li>
+          <li>Training & Consultancy</li>
+        </ul>
+      </section>
     </main>
   )
 }
