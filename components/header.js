@@ -2,13 +2,12 @@ import Link from "next/link"
 
 export default function Header() {
   return (
-    <header style={{ padding: 20, borderBottom: "1px solid #ddd" }}>
-      <h2>Energy & Logics</h2>
-      <nav>
-        <Link href="/">Home</Link> |{" "}
-        <Link href="/services">Services</Link> |{" "}
-        <Link href="/training">Training</Link> |{" "}
-        <Link href="/support">Support</Link>
+    <header style={{ padding: "20px 40px", borderBottom: "1px solid #eee" }}>
+      <nav style={{ display: "flex", gap: "20px" }}>
+        <Link href="/">Home</Link>
+        <Link href="/services">Services</Link>
+        <Link href="/training">Training</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   )
