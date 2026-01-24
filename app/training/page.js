@@ -1,19 +1,11 @@
-export default function TrainingPage() {
+export default function Training() {
   return (
-    <main style={{ padding: "60px 40px" }}>
+    <div className="section">
       <h1>Training & Consultancy</h1>
-
-      <p style={{ maxWidth: "700px", marginTop: "16px" }}>
-        We offer hands-on engineering training focused on real-world skills in
-        electronics, embedded systems, IoT, and sustainability.
+      <p>
+        Practical training in electrical engineering,
+        automation, PLCs and embedded systems.
       </p>
-
-      <ul style={{ marginTop: "24px" }}>
-        <li>Embedded Systems Fundamentals</li>
-        <li>PCB Design Training</li>
-        <li>IoT & Automation</li>
-        <li>Professional Engineering Consultancy</li>
-      </ul>
-    </main>
-  )
+    </div>
+  );
 }
