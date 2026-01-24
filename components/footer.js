@@ -1,7 +1,8 @@
 export default function Footer() {
   return (
-    <footer style={{ padding: 20, borderTop: "1px solid #ddd", marginTop: 40 }}>
+    <footer>
       <p>© {new Date().getFullYear()} Energy & Logics Ltd</p>
+      <p>Engineering your Sustainability</p>
     </footer>
-  )
+  );
 }
