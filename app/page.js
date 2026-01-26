@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-gray-50">
-      
+    <main className="min-h-screen bg-gray-50 space-y-20">
+
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-24">
         <div className="max-w-6xl mx-auto px-6 text-center">
@@ -12,13 +12,13 @@ export default function HomePage() {
             Engineering your Sustainability
           </p>
           <p className="max-w-3xl mx-auto text-lg text-blue-100">
-            We design innovative electronic systems, IoT solutions, and provide
-            professional engineering training to power sustainable development.
+            Smart engineering solutions in energy, automation, embedded systems,
+            and professional training.
           </p>
         </div>
       </section>
 
-      {/* Services Preview */}
+      {/* Services Section */}
       <section className="py-20">
         <div className="max-w-6xl mx-auto px-6">
           <h2 className="text-3xl font-bold text-center mb-12">
